@@ -6,11 +6,47 @@ Command: “python3 xsstrike.py -u "https://mysmartsa.com/" --crawl”<br>
 Info: This git-hub is used to detect Cross-Site Scripting, It’s pretty smart as it will analyze the responses and craft a payloads for that type of response. It can also crawl a website.<br>
 Results: When I ran the scan, it found jquery v3.6.0  and bootstrap v5.2.0-beta1 but found zero vulnerabilities within those.<br>
 
+Commands offered:<br>
+  -h, --help: show this help message and exit<br>
+  -u TARGET, --url TARGET: url<br>
+  --data PARAMDATA: post data<br>
+  -e ENCODE, --encode ENCODE: encode payloads<br>
+  --fuzzer&emsp: fuzzer<br>
+  --update: update<br>
+  --timeout TIMEOUT: timeout<br>
+  --proxy: use prox(y|ies)<br>
+  --crawl: crawl<br>
+  --json: treat post data as json<br>
+  --path: inject payloads in the path<br>
+  --seeds: load crawling seeds from a file<br>
+  -f ARGS_FILE, --file ARGS_FILE: loads payloads from a file<br>
+  -l LEVEL, --level LEVEL: level of crawling<br>
+  --headers [ADD_HEADERS]: add headers<br>
+  -t THREADCOUNT, --threads: THREADCOUNT  number of threads<br>
+  -d DELAY, --delay DELAY: delay between requests<br>
+  --skip: don't ask to continue<br>
+  --skip-dom: skip dom checking<br>
+  --blind: inject blind XSS payload while crawling<br>
+  --console-log-level {DEBUG,INFO,RUN,GOOD,WARNING,ERROR,CRITICAL,VULN}: Console logging level<br>
+  --file-log-level {DEBUG,INFO,RUN,GOOD,WARNING,ERROR,CRITICAL,VULN}: File Logging level<br>
+  --log-file LOG_FILE: Name of the file to log<br>
+
 
 # yoiThon - https://github.com/gyoisamurai/GyoiThon - Python<br>
 Command: “python3 gyoithon.py” Must add url into host.txt<br>
 Info: GyoiThon is a gathering tool for a web server, it will gather product operated on a server, like CMS, etc. It does a web crawl, gathering HTTP responses, get identification of product/version, uses CVE’s to identifies any, looks for unnecessary HTML/JavaScript comments and debug messages, and examines login pages. Uses the Python library Scrapy to web crawl.<br>
 Results: It web crawled found all links on website, made a lot of logs from what I could understand, nothing was found.<br>
+
+  Commands offered:<br>
+    -s    : Examine cloud service.<br>
+    -m    : Analyze HTTP response for identify product/version using Machine Learning.<br>
+    -g    : Google Custom Search for identify product/version.<br>
+    -e    : Explore default path of product.<br>
+    -c    : Discover open ports and wrong ssl server certification using Censys.<br>
+    -p    : Execute exploit module using Metasploit.<br>
+    -l    : Analyze log based HTTP response for identify product/version.<br>
+    -d    : Development of signature and train data.<br>
+    -i    : Explore relevant FQDN with the target FQDN.<br>
 
 
 # Vulscan - https://github.com/scipag/vulscan<br>
@@ -24,6 +60,10 @@ Command: “”<br>
 Used for info gathering and vulnerability scanning with it utilizing TCP SYN, Ack, and ICMP.<br>
 Seems to be a very powerful tool to scan for vulnerabilities it has a lot of modules that can do a lot of different things. Has different built in modules to find exploits, like admin directory finder, subdomains, strict transport security vuln,etc. <br>
 Results: Finds port 80 and 443 from the scans I ran like STS it found nothing, the subdomain scan worked, while the admin scan did not find the admin page.<br> 
+
+Commands offeredL<br>
+ 
+
 
 
 # Snallyhaster - https://github.com/hannob/snallygaster - Python<br>
