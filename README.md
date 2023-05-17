@@ -61,9 +61,10 @@ Used for info gathering and vulnerability scanning with it utilizing TCP SYN, Ac
 Seems to be a very powerful tool to scan for vulnerabilities it has a lot of modules that can do a lot of different things. Has different built in modules to find exploits, like admin directory finder, subdomains, strict transport security vuln,etc. <br>
 Results: Finds port 80 and 443 from the scans I ran like STS it found nothing, the subdomain scan worked, while the admin scan did not find the admin page.<br> 
 
-Commands offeredL<br>
- 
+Commands offered:<br>
+![Screenshot from 2023-05-17 15-31-59](https://github.com/Bdomi05/Web-Pen-Tools/assets/88816867/e3f1aa0a-97cd-4318-a52d-0b6557eddfd9)
 
+![Screenshot from 2023-05-17 15-32-29](https://github.com/Bdomi05/Web-Pen-Tools/assets/88816867/3c054edb-b3d0-4fd3-9778-54a2ad3fbf80)
 
 
 # Snallyhaster - https://github.com/hannob/snallygaster - Python<br>
