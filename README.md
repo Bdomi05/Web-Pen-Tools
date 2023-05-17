@@ -1,6 +1,4 @@
 # Web-Pen-Tools
-# A set of tools that will be used for one bigger pen-test scan
-
 ## List of Tools with Description:
 -------------------------------
 # XXStrike - https://github.com/s0md3v/XSStrike -Python<br>
